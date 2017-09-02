@@ -1,0 +1,73 @@
+//sass --watch assets/scss/style.scss:assets/scss/style.css
+$rojo:#DF3333;
+$morado:#6d35bc;
+$gris:#f5f5f5;
+$azul:#3C4E98;
+$negro:#000000;
+
+.social{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+}
+
+.logo{
+    width: 260px;
+    float:righ;
+    padding-top:20px;
+    margin-bottom:20px
+}
+.titulo{
+    color:$negro;
+    font-size:20pt; 
+    float:right;
+    text-align: center;
+
+    }
+.container-titulo{
+    padding: 40px;
+  }
+nav{
+    background-color:$rojo;
+    height: 50px;
+    color: white;
+    font-size: 16pt;
+    padding:6px;
+}
+
+ aside{
+    height: 500px;
+ }
+
+ main{
+    height: 450px;
+    text-align: center;
+    border-left:1px solid $gris;
+ }
+ 
+ .logo2{
+    width: 560px;
+    padding-top:50px;
+}
+.caja-login{
+    height:200px;
+    border: 5px solid $morado;
+    border-radius:10px;
+    margin-top:30px;
+    background-color: #f5f5f5;
+}
+
+.caja{
+    height:80px;
+    border: 5px solid $morado;
+    border-radius:10px;
+    margin-top:25px;
+    background-color: #f5f5f5;
+}
+.btn-submit{
+    text-align: center;
+
+}
+    .tam-icono{
+    font-size: 26pt;
+}
